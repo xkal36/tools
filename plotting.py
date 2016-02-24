@@ -56,12 +56,3 @@ def create_plots(begin, end, stride):
     simpleplot.plot_lines("Plots of three functions", 600, 400, "x", "f(x)",
                          [double_plot, square_plot, exp_plot], 
                          True, ["double", "square", "exp"])
-    
-create_plots(0, 2, .1)
-                          
-                   
-    
-    
-    
-    
-    
