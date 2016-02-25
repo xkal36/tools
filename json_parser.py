@@ -1,20 +1,3 @@
-# ---------------
-# User Instructions
-#
-# In this problem, you will be using many of the tools and techniques
-# that you developed in unit 3 to write a grammar that will allow
-# us to write a parser for the JSON language. 
-#
-# You will have to visit json.org to see the JSON grammar. It is not 
-# presented in the correct format for our grammar function, so you 
-# will need to translate it.
-
-# ---------------
-# Provided functions
-#
-# These are all functions that were built in unit 3. They will help
-# you as you write the grammar.  Add your code at line 102.
-
 from functools import update_wrapper
 from string import split
 import re
