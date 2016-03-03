@@ -1,5 +1,5 @@
 """
-Generalized search functionsd that can be used to
+Generalized search functions that can be used to
 solve a variety of search problems.
 """
 
