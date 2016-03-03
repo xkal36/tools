@@ -1,6 +1,8 @@
 """
 Create a rectagular grid and iterate through 
-a subset of its cells in a specified direction
+a subset of its cells in a specified direction.
+
+Useful when working with a 2-D list, as part of a game say.
 """
 
 GRID_HEIGHT = 4
@@ -54,5 +56,3 @@ def run_example():
     traverse_grid((0, 0), (1, 1), min(GRID_WIDTH, GRID_HEIGHT))
     
 run_example()
-
-
